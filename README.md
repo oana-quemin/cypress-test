@@ -1,4 +1,4 @@
-# cypress-tesla-website
+# cypress-test
 
 Cypress project using a Page Object Model on [SauceDemo](https://www.saucedemo.com/).
 
