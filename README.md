@@ -14,9 +14,31 @@ npm install
 npm run cy:run
 ```
 
+or
+
+```bash
+npm test
+```
+
 This runs `cypress/e2e/saucedemo-login.cy.js`, which logs in with:
 - Username: `standard_user`
 - Password: `secret_sauce`
+
+## Run tests in Chrome
+```bash
+npx cypress run --headed --browser chrome
+```
+
+or
+
+```bash
+npm run cy:chrome
+```
+
+## Run a particular test class in Chrome
+```bash
+npx cypress run --headed --browser chrome --spec "cypress/e2e/saucedemo-login.cy.js"
+```
 
 ## Open Cypress UI
 
