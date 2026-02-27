@@ -1,0 +1,17 @@
+{
+  "name": "cypress-tesla-website",
+  "version": "1.0.0",
+  "description": "Learning Cypress with the Cypress Kitchen Sink demo site",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "npm run cy:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
