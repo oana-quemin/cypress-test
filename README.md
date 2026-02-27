@@ -18,6 +18,11 @@ This runs `cypress/e2e/saucedemo-login.cy.js`, which logs in with:
 - Username: `standard_user`
 - Password: `secret_sauce`
 
+## Run tests in Chrome
+```bash
+npx cypress run --headed --browser chrome
+```
+
 ## Open Cypress UI
 
 ```bash
