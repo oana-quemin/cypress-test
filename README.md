@@ -23,6 +23,11 @@ This runs `cypress/e2e/saucedemo-login.cy.js`, which logs in with:
 npx cypress run --headed --browser chrome
 ```
 
+## Run a particular test class in Chrome
+```bash
+npx cypress run --headed --browser chrome --spec "cypress/e2e/saucedemo-login.cy.js"
+```
+
 ## Open Cypress UI
 
 ```bash
