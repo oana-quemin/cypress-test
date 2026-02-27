@@ -16,7 +16,7 @@ npm run cy:run
 
 or
 
-``bash
+```bash
 npm test
 ```
 
