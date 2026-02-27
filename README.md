@@ -1,4 +1,4 @@
-# cypress-tesla-website
+# cypress-test
 
 Cypress project for basic navigation tests on the [Cypress Kitchen Sink](https://example.cypress.io/).
 
