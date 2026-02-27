@@ -14,6 +14,12 @@ npm install
 npm run cy:run
 ```
 
+or
+
+``bash
+npm test
+```
+
 This runs `cypress/e2e/saucedemo-login.cy.js`, which logs in with:
 - Username: `standard_user`
 - Password: `secret_sauce`
