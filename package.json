@@ -1,7 +1,7 @@
 {
   "name": "cypress-tesla-website",
   "version": "1.0.0",
-  "description": "Learning Cypress with the Cypress Kitchen Sink demo site",
+  "description": "Learning Cypress with SauceDemo using Page Object Model",
   "private": true,
   "scripts": {
     "cy:open": "cypress open",
